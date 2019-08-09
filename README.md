@@ -4,7 +4,7 @@ Python program to assemble a fragmented sequence using the deBruijn graph approa
 ## Quick Start : 
 
 #### Import the package : 
-#### from deBruign_graph_assembler.py import *
+#### from deBruign_graph_assembler import *
 
 
 db=deBruijnGraph(list) #e.g. list=['atgc', 'atgc', 'tcga', 'tgca', 'atcg']
