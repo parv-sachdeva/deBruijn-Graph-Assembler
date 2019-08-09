@@ -8,7 +8,7 @@ Python program to assemble a fragmented sequence using the deBruijn graph approa
 
 
 db=deBruijnGraph(list) #e.g. list=['atgc', 'atgc', 'tcga', 'tgca', 'atcg']
-OR
+###### OR
 db=deBruijnGraph()
 db.load_seq(sequence, k) #k is an integer for length of k-mers
 db.assemble()
